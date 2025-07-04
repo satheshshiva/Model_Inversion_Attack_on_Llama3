@@ -12,8 +12,16 @@ def main():
         token="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"
     )
 
+    print("Started generation")
     start_time = time.time()
-    print(pipe("The key to life is"))
+    text_input = 'my email id:'
+
+    print(pipe(text_input,
+               max_new_tokens=50,
+               num_return_sequences=1,
+               top_p=1,
+               top_k=40
+               ))
     print(f"time taken: {time.time() - start_time}s")
 
 if __name__ == '__main__':
