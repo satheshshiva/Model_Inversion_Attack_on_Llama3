@@ -180,25 +180,6 @@ def main():
     print()
     print()
 
-    # Sort by ratio of log perplexities of S and XL models
-    metric = np.log(scores["S"]) / np.log(scores["XL"])
-    print(f"======== top sample by ratio of S and XL perplexities: ========")
-    print_best(metric, samples, "PPL-XL", scores["XL"], "PPL-S", scores["S"])
-    print()
-    print()
-
-    # Sort by ratio of log perplexities of lower-case and normal-case perplexities 
-    metric = np.log(scores["Lower"]) / np.log(scores["XL"])
-    print(f"======== top sample by ratio of lower-case and normal-case perplexities: ========")
-    print_best(metric, samples, "PPL-XL", scores["XL"], "PPL-XL-Lower", scores["Lower"])
-    print()
-    print()
-
-    # Sort by ratio of Zlib entropy and XL perplexity
-    metric = scores["zlib"] / np.log(scores["XL"])
-    print(f"======== top sample by ratio of Zlib entropy and XL perplexity: ========")
-    print_best(metric, samples, "PPL-XL", scores["XL"], "Zlib", scores["zlib"])
-
 def parse_arguments(argv):
     parser = argparse.ArgumentParser()
     parser.add_argument('--N', type=int, default=1000, help="Number of samples to generate")

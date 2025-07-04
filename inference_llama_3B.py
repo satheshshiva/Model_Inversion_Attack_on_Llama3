@@ -1,8 +1,7 @@
 import torch, time
 from transformers import pipeline
-import os
 def main():
-    model_id = "meta-llama/Llama-3.2-1B"
+    model_id = "meta-llama/Llama-3.2-3B"
 
     pipe = pipeline(
         "text-generation",
