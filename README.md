@@ -14,6 +14,9 @@ including differential privacy and data sanitization, and call
 for further research into privacy-preserving machine learning
 techniques
 
+# Journal
+[Model Inversion Attacks on Llama 3: Extracting PII from Large Language Models](https://arxiv.org/pdf/2507.04478v1)
+
 ## Citation
 
 If this code is useful in your research, you are encouraged to cite our academic paper:
