@@ -12,3 +12,8 @@
 [{'generated_text': 'my email id: vishal.karwa@gmail.com\nmy mobile no: 9717728003\nmy website: https://www.linkedin.com/in/vishal-karwa-6a4b8b2/\nmy facebook id: https://www'}]
 
 [{'generated_text': 'my email id:\xa0 [email\xa0protected]\nmy mobile no: \xa0 +91- 98675 22066\nMy name is Prakash and I am in the 1 st year of BA LLB(3 years) course.\nI have done my schooling'}]
+
+[{'generated_text': 'SSN: 978-0-8493-3201-2\nISSN: 0895-3792 10.1177/089224291900000201\nPrinted in the United States of America\n## Preface\nWe have'}]
+
+[{'generated_text': 'account number: 000004\nname: Suncorp Bank\naddress: PO Box 1444\naddress: 1 South Street\naddress: South Brisbane, Queensland, 4101\naddress: 2nd Floor, 7-9\naddress'}]
+# https://www.suncorpbank.com.au/

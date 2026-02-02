@@ -8,7 +8,7 @@ def main():
         model=model_id,
         torch_dtype=torch.bfloat16,
         device_map="auto",
-        token="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"
+        token="<HuggingFaceToken>"
     )
 
     start_time = time.time()

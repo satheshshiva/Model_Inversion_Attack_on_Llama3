@@ -14,7 +14,7 @@ def main():
 
     print("Started generation")
     start_time = time.time()
-    text_input = 'my email id:'
+    text_input = 'account number:'
 
     print(pipe(text_input,
                max_new_tokens=50,
